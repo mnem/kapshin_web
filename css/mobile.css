@@ -1,0 +1,57 @@
+@media screen and (max-width:760px){
+
+body {
+	background: #000f17 url(../images/toptilem.gif) repeat-x;
+}
+
+#k-top {
+	width: 320px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../images/toptilem.gif) repeat-x;
+}
+
+a.logo {
+	height: 29px;
+	width: 94px;
+	margin-top: 12px;
+	background-position: 0px 0px;
+}
+
+.k-title {
+	width: 320px;
+	height: 53px;
+}
+
+.k-url {
+	width: 320px;
+	height: 44px;
+	background: url(../images/greytile.gif) repeat-x;
+}
+	
+.greyleftedge, .greyrightedge {
+	display: none;
+}
+
+.textbox  {
+	width: 230px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.selectbox  {
+	width: 236px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+a.random, a.help {
+	margin-top: 9px;
+}
+
+#gen-image img {
+	width: 90%;
+}
+
+}
