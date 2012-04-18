@@ -11,7 +11,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=8" >
 
 <meta name="keywords" content="sticking words on photos">
-<meta name="author" content="Dave Wagner">
+<meta name="author" content="Andrew Nicolson, David Wagner">
 <meta name="robots" content="follow,index">
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
 
@@ -19,7 +19,6 @@
 <link rel="SHORTCUT ICON" href="images/favicon.ico">
 <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
 <link href="css/mobile.css" rel="stylesheet" type="text/css" media="screen">
-
 </head>
 
 <body>
@@ -30,21 +29,21 @@
 	</div>
 	<div class="k-url">
 			<div class="greyleftedge"></div>
-			<input class="textbox" type="text" name="imageURL" value="http://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-snc7/2603_61922841212_577851212_2065354_5569366_n.jpg" />
+			<input id="image-url" class="textbox" type="text" name="imageURL" value="http://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-snc7/2603_61922841212_577851212_2065354_5569366_n.jpg" />
 			<a class="random" href="#" title="Randomise"></a>
 			<a class="help" href="#" title="Help"></a>
 			<div class="greyrightedge"></div>
 	</div>
 	<div class="k-url">
 			<div class="greyleftedge"></div>
-			<input class="textbox" type="text" name="caption" value="God, if you're up there... please kill Justin Bieber." />
+			<input id="image-message" class="textbox" type="text" name="caption" value="God, if you're up there... please kill Justin Bieber." />
 			<a class="random" href="#" title="Randomise"></a>
 			<a class="help" href="#" title="Help"></a>
 			<div class="greyrightedge"></div>
 	</div>
 	<div class="k-url">
 			<div class="greyleftedge"></div>
-			<select class="selectbox">
+			<select id="image-style" class="selectbox">
 				<option value="lolcats">LOLcats</option>
 				<option value="motivation">Motivational poster</option>
 				<option value="speech">Speech bubble</option>
@@ -56,7 +55,7 @@
 	</div>
 </div>
 <div id="gen-image">
-	<img class="#" src="images/sampleimage.jpg" alt="" />
+	<img id="kapshin-image" class="#" src="images/sampleimage.jpg" alt="" />
 	<div class="shareoptions">
 	<a href="#" class="saveicon" title="Save this image">Save</a>
 	<a href="#" class="twittericon" title="Post to Twitter">Twitter</a>
@@ -65,6 +64,8 @@
 	</div>
 </div>
 
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/index.min.js"></script>
 </body>
 
 </html>
